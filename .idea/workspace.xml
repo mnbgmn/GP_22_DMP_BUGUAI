@@ -1,5 +1,896 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db6df30a-1a1c-4bbd-8459-d400fdf62ccb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/log/log.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/log/log1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c10.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c101.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c111.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c121.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c130.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c141.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c150.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c161.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c171.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c1c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c1d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c1e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c1f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c20.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c200.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c211.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c221.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c230.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c241.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c251.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c260.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c271.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c281.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c290.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c2a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c2b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c2c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c2d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c2e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c2f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c300.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c31.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c311.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c321.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c331.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c340.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c351.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c361.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c371.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c380.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c391.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c3a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c3b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c3c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c3d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c3e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c3f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c400.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c41.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c411.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c421.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c430.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c441.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c451.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c461.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c470.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c481.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c490.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c4a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c4b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c4c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c4d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c4e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c4f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c501.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c51.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c510.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c521.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c530.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c541.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c550.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c561.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c570.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c581.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c590.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c5a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c5b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c5c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c5d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c5e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c5f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c60.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c601.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c610.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c621.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c630.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c641.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c650.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c661.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c670.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c681.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c690.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c6a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c6b0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c6c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c6d0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c6e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c6f0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c701.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c71.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c711.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c721.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c731.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c741.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c751.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c761.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c771.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c781.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c791.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c7a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c7b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c7c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c7d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c7e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c7f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c801.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c81.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c811.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c821.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c831.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c840.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c851.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c860.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c871.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c880.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c891.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c8a0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c8b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c8c1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c8d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c8e1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c8f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c90.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c901.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c911.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c920.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c931.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c940.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c951.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c960.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c971.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c981.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c990.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c9a1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c9b1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c9c0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c9d1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c9e0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/c9f1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/ca01.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/ca1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/ca11.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/ca21.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/cb1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/cc0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/cd1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/ce1.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/seg0/cf0.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metastore_db/service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00000-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00001-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00002-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00003-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00004-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00005-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00006-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00007-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00008-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00009-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00010-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00011-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00012-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00013-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00014-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00015-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00016-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00017-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00018-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00019-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00020-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00021-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00022-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00023-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00024-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00025-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00026-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00027-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00028-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00029-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00030-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00031-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00032-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00033-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00034-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00035-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00036-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00037-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00038-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00039-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00040-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00041-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00042-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00043-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00044-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00045-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00046-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00047-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00048-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00049-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00050-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00051-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00052-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00053-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00054-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00055-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00056-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00057-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00058-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00059-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00060-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00061-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00062-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00063-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00064-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00065-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00066-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00067-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00068-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00069-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00070-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00071-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00072-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00073-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00074-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00075-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00076-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00077-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00078-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00079-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00080-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00081-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00082-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00083-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00084-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00085-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00086-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00087-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00088-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00089-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00090-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00091-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00092-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00093-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00094-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00095-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00096-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00097-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00098-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00099-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00100-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00101-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00102-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00103-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00104-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00105-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00106-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00107-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00108-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00109-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00110-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00111-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00112-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00113-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00114-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00115-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00116-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00117-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00118-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00119-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00120-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00121-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00122-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00123-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00124-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00125-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00126-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00127-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00128-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00129-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00130-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00131-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00132-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00133-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00134-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00135-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00136-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00137-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00138-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00139-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00140-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00141-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00142-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00143-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00144-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00145-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00146-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00147-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00148-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00149-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00150-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00151-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00152-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00153-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00154-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00155-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00156-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00157-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00158-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00159-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00160-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00161-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00162-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00163-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00164-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00165-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00166-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00167-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00168-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00169-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00170-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00171-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00172-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00173-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00174-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00175-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00176-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00177-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00178-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00179-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00180-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00181-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00182-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00183-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00184-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00185-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00186-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00187-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00188-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00189-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00190-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00191-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00192-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00193-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00194-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00195-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00196-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00197-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00198-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/.part-00199-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00000-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00001-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00002-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00003-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00004-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00005-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00006-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00007-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00008-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00009-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00010-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00011-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00012-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00013-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00014-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00015-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00016-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00017-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00018-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00019-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00020-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00021-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00022-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00023-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00024-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00025-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00026-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00027-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00028-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00029-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00030-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00031-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00032-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00033-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00034-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00035-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00036-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00037-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00038-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00039-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00040-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00041-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00042-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00043-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00044-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00045-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00046-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00047-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00048-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00049-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00050-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00051-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00052-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00053-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00054-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00055-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00056-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00057-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00058-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00059-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00060-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00061-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00062-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00063-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00064-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00065-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00066-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00067-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00068-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00069-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00070-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00071-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00072-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00073-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00074-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00075-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00076-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00077-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00078-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00079-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00080-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00081-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00082-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00083-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00084-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00085-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00086-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00087-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00088-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00089-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00090-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00091-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00092-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00093-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00094-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00095-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00096-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00097-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00098-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00099-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00100-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00101-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00102-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00103-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00104-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00105-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00106-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00107-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00108-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00109-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00110-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00111-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00112-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00113-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00114-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00115-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00116-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00117-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00118-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00119-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00120-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00121-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00122-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00123-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00124-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00125-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00126-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00127-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00128-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00129-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00130-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00131-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00132-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00133-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00134-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00135-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00136-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00137-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00138-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00139-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00140-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00141-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00142-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00143-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00144-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00145-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00146-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00147-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00148-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00149-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00150-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00151-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00152-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00153-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00154-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00155-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00156-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00157-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00158-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00159-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00160-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00161-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00162-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00163-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00164-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00165-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00166-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00167-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00168-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00169-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00170-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00171-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00172-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00173-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00174-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00175-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00176-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00177-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00178-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00179-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00180-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00181-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00182-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00183-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00184-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00185-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00186-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00187-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00188-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00189-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00190-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00191-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00192-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00193-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00194-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00195-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00196-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00197-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00198-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputPath/part-00199-a4c7d5f7-3f10-4b90-800f-78306d954235-c000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-warehouse/tmp_log/.part-00000-0fa3fbd8-21c3-44b1-b70e-f57ab2fc3b4f-c000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-warehouse/tmp_log/part-00000-0fa3fbd8-21c3-44b1-b70e-f57ab2fc3b4f-c000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/ETL/Txt2parquet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Graphx/graph_test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Rpt/APPRpt.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Rpt/LocationRptCore.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Rpt/LocationRptSql.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Rpt/TerminalClientRptCore.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Rpt/TerminalDevicetypeRptCore.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Rpt/TerminalNetworkmannernameRptCore.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Rpt/TerminalOperationRptCore.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/BusinessTag.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/TagsAd.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/TagsApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/TagsConText.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextHbase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextHbase1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextRedis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/TagsDevice.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/TagsKeyWord.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/Tags/TagsLocation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/kaoshi/ApUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/kaoshi/ApUtil2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/AmapUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/App2Jedis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/HttpUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/JedisConnectionPool.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/RptUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/Tag.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/TagUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/Utils2Type.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/project/com/utils/test2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/GP_22_DMP_BUGUAI.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/JedisConnectionPool$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/JedisConnectionPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/JedisOffset$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/JedisOffset$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/JedisOffset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/KafkaRedisOffset$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/KafkaRedisOffset$$anonfun$main$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/KafkaRedisOffset$$anonfun$main$1$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/KafkaRedisOffset$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/KafkaRedisOffset$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rdis/offset/KafkaRedisOffset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet$AD$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet$AD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ETL/Txt2parquet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Graphx/graph_test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$$anonfun$4$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$$anonfun$6$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/APPRpt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptCore$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptCore$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptCore$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptCore$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptCore$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptCore$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptCore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptSql$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/LocationRptSql.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalClientRptCore$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalClientRptCore$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalClientRptCore$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalClientRptCore$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalClientRptCore$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalClientRptCore$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalClientRptCore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalDevicetypeRptCore$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalDevicetypeRptCore$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalDevicetypeRptCore$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalDevicetypeRptCore$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalDevicetypeRptCore$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalDevicetypeRptCore$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalDevicetypeRptCore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalNetworkmannernameRptCore$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalNetworkmannernameRptCore$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalNetworkmannernameRptCore$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalNetworkmannernameRptCore$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalNetworkmannernameRptCore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalOperationRptCore$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalOperationRptCore$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalOperationRptCore$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalOperationRptCore$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalOperationRptCore$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalOperationRptCore$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalOperationRptCore$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Rpt/TerminalOperationRptCore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/BusinessTag$$anonfun$makeTags$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/BusinessTag$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/BusinessTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsAd$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsAd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp$$anonfun$makeTags$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$anonfun$main$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$anonfun$main$2$$anonfun$apply$2$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$anonfun$main$2$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConText.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$main$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$main$2$$anonfun$apply$2$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$main$2$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$main$3$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextHbase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$anonfun$main$2$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$anonfun$main$2$$anonfun$apply$3$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$anonfun$main$2$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsConTextRedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsDevice$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsDevice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsKeyWord$$anonfun$makeTags$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsKeyWord$$anonfun$makeTags$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsKeyWord$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsKeyWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsLocation$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/Tags/TagsLocation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil$$anonfun$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil2$$anonfun$1$$anonfun$apply$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil2$$anonfun$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil2$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil2$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil2$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil2$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil2$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/kaoshi/ApUtil2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/AmapUtil$$anonfun$getBusinessFromAmap$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/AmapUtil$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/AmapUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/App2Jedis$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/App2Jedis$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/App2Jedis$$anonfun$main$3$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/App2Jedis$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/App2Jedis$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/App2Jedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/HttpUtil$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/HttpUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/JedisConnectionPool$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/JedisConnectionPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/RptUtils$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/RptUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/TagUtils$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/TagUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Utils2Type$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/Utils2Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test2$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextHbase1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+              <folding>
+                <element signature="e#18#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ADOR</find>
+      <find>ADORDERID</find>
+      <find>`1</find>
+      <find>provincename</find>
+      <find>ADORDEERID</find>
+      <find>REQUESTMODE</find>
+      <find>processode</find>
+      <find>config</find>
+      <find>graph</find>
+      <find>hbase</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/project/com/ETL/Utils2Type.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/ETL/Rpt/LocationRpt.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/ETL/RptUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/ETL/Rpt/LocationRptCore.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/Utils2Type.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/RptUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Rpt/Txt2parquet.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/ETL/sadsa.java" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Rpt/LocationRpt.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/ETL/Txt2parquet.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/Tag.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Rpt/LocationRptCore.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Rpt/TerminalNetworkmannernameRptCore.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Rpt/TerminalDevicetypeRptCore.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Rpt/TerminalClientRptCore.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Rpt/APPRpt.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/HttpUtil.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/JedisConnectionPool.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/AmapUtil.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/kaoshi/kaoshiDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/kaoshi/ApUtil2.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsAd.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Rpt/TerminalOperationRptCore.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsDecive.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsLocation.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsDevice.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsKeyWord.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/kaoshi/ApUtil.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextRedis.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/test.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/test2.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/App2Redis.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/App2Jedis.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/utils/TagUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Graphx/graph_test.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsConText.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextHbase.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/project/Rdis/offset/JedisConnectionPool.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/Rdis/offset/JedisOffset.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/Rdis/offset/KafkaRedisOffset.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/BusinessTag.scala" />
+        <option value="$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextHbase1.scala" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -9,22 +900,863 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="8" />
     <option name="y" value="-16" />
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GP_22_DMP_BUGUAI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP_22_DMP_BUGUAI" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/scalademo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.49382716" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Tags" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GP_22_DMP_BUGUAI\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.KafkaRedisOffset">
+    <configuration name="APPRpt" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Rpt.APPRpt" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/..//park_project/yuanshuju_zhuang_parquet/part-00000-e6fedb22-be3c-48be-ae31-8a3a68a17d9d-c000.snappy.parquet $PROJECT_DIR$/..//spark_project/app_dict.txt $PROJECT_DIR$/..//spark_project/stopwords.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Rpt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApUtil" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.kaoshi.ApUtil" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaoshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApUtil2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.kaoshi.ApUtil2" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaoshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaRedisOffset" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Rdis.offset.KafkaRedisOffset" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Rdis.offset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationRpt" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Rpt.LocationRptSql" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <option name="PROGRAM_PARAMETERS" value="D:\spark_project\2016-10-01_06_p1_invalid.1475274123982.log D:\spark_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ETL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationRptCore" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Rpt.LocationRptCore" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/..//spark_project/yuanshuju_zhuang_parquet/part-00000-e6fedb22-be3c-48be-ae31-8a3a68a17d9d-c000.snappy.parquet $PROJECT_DIR$/..//" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ETL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagsApp" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Tags.TagsApp" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/..//spark_project/yuanshuju_zhuang_parquet/part-00000-e6fedb22-be3c-48be-ae31-8a3a68a17d9d-c000.snappy.parquet $PROJECT_DIR$/..//spark_project/app_dict.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Tags.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagsConText " type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Tags.TagsConText" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/..//spark_project/yuanshuju_zhuang_parquet/part-00000-e6fedb22-be3c-48be-ae31-8a3a68a17d9d-c000.snappy.parquet $PROJECT_DIR$/..//spark_project/app_dict.txt $PROJECT_DIR$/..//spark_project/stopwords.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Tags.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TagsConTextHbase" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Tags.TagsConTextHbase" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/..//spark_project/yuanshuju_zhuang_parquet/part-00000-e6fedb22-be3c-48be-ae31-8a3a68a17d9d-c000.snappy.parquet $PROJECT_DIR$/..//spark_project/app_dict.txt $PROJECT_DIR$/..//spark_project/stopwords.txt " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Tags.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TerminalClientRptCore" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Rpt.TerminalClientRptCore" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Rpt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TerminalDevicetypeRptCore" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Rpt.TerminalDevicetypeRptCore" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Rpt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TerminalNetworkmannernameRptCore" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Rpt.TerminalNetworkmannernameRptCore" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Rpt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Txt2parquet" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ETL.Txt2parquet" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <option name="PROGRAM_PARAMETERS" value="D:\2016-10-01_06_p1_invalid.1475274123982.log D:\123123" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="graph_test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.Graphx.graph_test" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Graphx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kaoshiDemo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.kaoshi.kaoshiDemo" />
+      <module name="GP_22_DMP_BUGUAI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaoshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TagsConTextHbase" />
+      <item itemvalue="Application.ApUtil" />
+      <item itemvalue="Application.ApUtil2" />
+      <item itemvalue="Application.kaoshiDemo" />
+      <item itemvalue="Application.TagsApp" />
+      <item itemvalue="Application.Txt2parquet" />
+      <item itemvalue="Application.LocationRpt" />
+      <item itemvalue="Application.LocationRptCore" />
+      <item itemvalue="Application.TerminalNetworkmannernameRptCore" />
+      <item itemvalue="Application.TerminalClientRptCore" />
+      <item itemvalue="Application.TerminalDevicetypeRptCore" />
+      <item itemvalue="Application.APPRpt" />
+      <item itemvalue="Application.TagsConText " />
+      <item itemvalue="Application.graph_test" />
+      <item itemvalue="Application.KafkaRedisOffset" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.KafkaRedisOffset" />
+        <item itemvalue="Application.graph_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db6df30a-1a1c-4bbd-8459-d400fdf62ccb" name="Default Changelist" comment="" />
+      <created>1566293359981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566293359981</updated>
+      <workItem from="1566293363443" duration="27210000" />
+      <workItem from="1566402230780" duration="83404000" />
+      <workItem from="1566791073293" duration="18554000" />
+      <workItem from="1566865256160" duration="16816000" />
+      <workItem from="1566963067905" duration="30000" />
+      <workItem from="1566963854182" duration="702000" />
+    </task>
+    <task id="LOCAL-00001" summary="模板代码">
+      <created>1566293397108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566293397108</updated>
+    </task>
+    <task id="LOCAL-00002" summary="模板代码">
+      <created>1566293425899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566293425899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="146716000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23780069" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897863" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30403802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39904988" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32897863" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897863" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.18527316" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3298969" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22749141" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30760095" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897863" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.18527316" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3298969" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="模板代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板代码" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Rpt/LocationRptSql.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Rpt/TerminalDevicetypeRptCore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="934" column="6" selection-start-line="934" selection-start-column="6" selection-end-line="934" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Rpt/TerminalNetworkmannernameRptCore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding>
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Rpt/TerminalClientRptCore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="327" column="6" selection-start-line="327" selection-start-column="6" selection-end-line="327" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/RptUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Rpt/APPRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/HttpUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#19#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/Tag.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/kaoshi/kaoshiDemo.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Rpt/LocationRptCore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/Utils2Type.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsAd.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#18#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1316" column="6" selection-start-line="1316" selection-start-column="6" selection-end-line="1316" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsDevice.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="e#18#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsLocation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#18#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsKeyWord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#18#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Rpt/TerminalOperationRptCore.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding>
+            <element signature="e#17#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#18#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/AmapUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#19#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/SparkSession.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="832" column="8" selection-start-line="832" selection-start-column="8" selection-end-line="832" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/App2Jedis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/132" />
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/test2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.conf" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/3214.conf" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xdcfds" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/werfe" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="802" column="13" selection-start-line="802" selection-start-column="13" selection-end-line="802" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/kaoshi/ApUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/kaoshi/ApUtil2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="e#20#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/ETL/Txt2parquet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2720">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+          <folding>
+            <element signature="e#17#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/2.2.0/hbase-client-2.2.0.jar!/org/apache/hadoop/hbase/client/ConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4.jar!/org/apache/hadoop/mapred/JobConf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="287" column="29" selection-start-line="287" selection-start-column="23" selection-end-line="287" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/2.2.0/hbase-client-2.2.0.jar!/org/apache/hadoop/hbase/HColumnDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsConText.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextRedis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#18#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextHbase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1130">
+          <caret line="53" column="67" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+          <folding>
+            <element signature="e#18#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/TagUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#19#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/utils/JedisConnectionPool.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/Rdis/offset/JedisOffset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#21#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/Rdis/offset/KafkaRedisOffset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/Rdis/offset/JedisConnectionPool.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Graphx/graph_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding>
+            <element signature="e#20#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/BusinessTag.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="909">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#18#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/project/com/Tags/TagsConTextHbase1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="e#18#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3939394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3939394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3939394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3939394" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GP_22_DMP_BUGUAI</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49382716" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -32,6 +1764,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.49382716" />
               </list>
             </option>
           </splitter-proportions>
