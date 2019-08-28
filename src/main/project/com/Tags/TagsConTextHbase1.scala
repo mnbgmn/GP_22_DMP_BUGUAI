@@ -9,7 +9,8 @@ import org.apache.hadoop.hbase.util.Bytes
 import org.apache.hadoop.hbase.{HColumnDescriptor, HTableDescriptor, TableName}
 import org.apache.hadoop.mapred.JobConf
 import org.apache.spark.broadcast.Broadcast
-import org.apache.spark.graphx.Graph
+import org.apache.spark.graphx.{Edge, Graph}
+import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
 
 /**
@@ -106,75 +107,61 @@ object TagsConTextHbase1 {
     val db2: Broadcast[Map[String, Int]] = spark.sparkContext.broadcast(map2)
 
     // 过滤符合ID的条件 //调用一个字符串就可以过滤嘛？这个filter能这么用嘛？看笔记，不是很明白
-    df.filter(TagUtils.OneUserId)
+    val baseRDD = df.filter(TagUtils.OneUserId)
       // 所有的标签在这里实现
       .map(row => {
-
-
+      val userList: List[String] = TagUtils.getAllUserId(row)
+      (userList, row)
     })
+
+    // 构建点集合
+    // 这里为什么是ds类型 而老师的是rdd呢
+    val vertiesRDD: Dataset[(Long, List[(String, Int)])] = baseRDD.flatMap(tp => {
+      val row = tp._2
+      // 所有标签
+      val adList = TagsAd.makeTags(row)
+      val appList = TagsApp.makeTags(row, db2)
+      val keywordList = TagsKeyWord.makeTags(row, db2)
+      val dvList = TagsDevice.makeTags(row)
+      val loactionList = TagsLocation.makeTags(row)
+      val business = BusinessTag.makeTags(row)
+      val AllTag = adList ++ appList ++ keywordList ++ dvList ++ loactionList ++ business
+      // List((String,Int))
+      // 保证其中一个点携带者所有标签，同时也保留所有userId
+      val VD = tp._1.map((_, 0)) ++ AllTag
+      // 处理所有的点集合
+      tp._1.map(uId => {
+        // 保证一个点携带标签 (uid,vd),(uid,list()),(uid,list())
+        if (tp._1.head.equals(uId)) {
+          (uId.hashCode.toLong, VD)
+        } else {
+          (uId.hashCode.toLong, List.empty)
+        }
+      })
+    })
+
     // vertiesRDD.take(50).foreach(println)
     // 构建边的集合
-    baseRDD.flatMap(tp=>{
-      // A B C ：A -> B A -> B
-      tp._1.map(uID => Edge(tp._1.head.hashCode,uId.hashCode,0))
+    val edges: Dataset[Edge[Int]] = baseRDD.flatMap(tp => {
+      // A B C : A->B A->C
+      tp._1.map(uId => Edge(tp._1.head.hashCode, uId.hashCode, 0))
     })
+
     //edges.take(20).foreach(println)
-    // 构件图
-    val graph = Graph(verticesRDD,edges)
-    // 取出顶点
+    // 构建图
+    // 因为上面是ds，老师直接是Graph(vertiesRDD,edges) 这里直接.rdd 这样对嘛
+    val graph = Graph(vertiesRDD.rdd,edges.rdd)
+    // 取出顶点 使用的是图计算中的连通图算法
     val vertices = graph.connectedComponents().vertices
     // 处理所有的标签和id
-    vertices.join(vertices).map{
+    vertices.join(vertiesRDD.rdd).map{
       case (uId,(conId,tagsAll))=>(conId,tagsAll)
-    }.reduceByKey()
-
-
-
-
-
-
-
-      // 1.db1为字典文件广播
-      // 2.db2为停用词库广播
-      // 取出用户ID
-      val userId = TagUtils.getOneUserId(row)
-      // 按照需求 通过row数据 打上所有标签
-      // 1.广告位类型标签
-      val adList: List[(String, Int)] = TagsAd.makeTags(row)
-      // 2.App 名称标签
-      val appList: List[(String, Int)] = TagsApp.makeTags(row, db1)
-      // 3.关键字标签
-      val keywordList = TagsKeyWord.makeTags(row, db2)
-      // 4.设备标签
-      val dvList = TagsDevice.makeTags(row)
-      // 5.地域标签
-      val loactionList = TagsLocation.makeTags(row)
-
-      // 取值
-      // ++是把list中的元素相加，那么:::呢
-      (userId, adList ++ appList ++ keywordList ++ dvList ++ loactionList)
+    }.reduceByKey((list1,list2)=>{
+      // 聚合所有的标签
+      (list1++list2).groupBy(_._1).mapValues(_.map(_._2).sum).toList
     })
-      // 这个reducebykey怎么用不了呢
-      // 按照相同key，对value进行操作
-      .rdd.reduceByKey((list1, list2) =>
-      // List(("lN插屏",1),("LN全屏",1),("ZC沈阳",1),("ZP河北",1)....)
-      (list1 ::: list2)
-        // List(("APP爱奇艺",List()))
-        .groupBy(_._1)
-        // mapvalues是什么意思
-        .mapValues(_.foldLeft[Int](0)(_ + _._2))
-        .toList
-      //下面准备存hbase
-    )
-//      .map {
-//      case (userid, userTag) => {
-//        val put = new Put(Bytes.toBytes(userid))
-//        // 处理下标签 如果不处理 就连在一块了
-//        val tags = userTag.map(t=>t._1+","+t._2).mkString(",")
-//        // 这里可以直接输入 但是太乱 所以改别的方式
-//        put.addImmutable(Bytes.toBytes("tags"),Bytes.toBytes(s"2019"),Bytes.toBytes(tags))
-//        (new ImmutableBytesWritable(),put)
-//      }
-//    }
-//  }
+      .take(20).foreach(println)
+
+    spark.stop()
+  }
 }
